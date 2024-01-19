@@ -1,0 +1,985 @@
+12:38:17.593: Platform: Wayland
+12:38:17.593: CPU Name: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+12:38:17.593: CPU Speed: 4162.602MHz
+12:38:17.593: Physical Cores: 4, Logical Cores: 8
+12:38:17.593: Physical Memory: 7743MB Total, 5917MB Free
+12:38:17.593: Kernel Version: Linux 6.6.8-arch1-1
+12:38:17.593: Distribution: "Arch Linux" Unknown
+12:38:17.593: Desktop Environment: Hyprland (Hyprland)
+12:38:17.593: Session Type: wayland
+12:38:17.595: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+12:38:17.595: Portable mode: false
+12:38:17.617: OBS 30.0.2-1 (linux)
+12:38:17.617: ---------------------------------
+12:38:17.617: ---------------------------------
+12:38:17.617: audio settings reset:
+12:38:17.617: 	samples per sec: 48000
+12:38:17.617: 	speakers:        2
+12:38:17.617: 	max buffering:   960 milliseconds
+12:38:17.617: 	buffering type:  dynamically increasing
+12:38:17.618: ---------------------------------
+12:38:17.618: Initializing OpenGL...
+12:38:17.618: Using EGL/Wayland
+12:38:17.646: Initialized EGL 1.5
+12:38:17.656: Loading up OpenGL on adapter Intel Mesa Intel(R) Xe Graphics (TGL GT2)
+12:38:17.656: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.3.1-arch1.1, shading language 4.60
+12:38:17.681: ---------------------------------
+12:38:17.681: video settings reset:
+12:38:17.681: 	base resolution:   1920x1080
+12:38:17.681: 	output resolution: 1280x720
+12:38:17.681: 	downscale filter:  Bicubic
+12:38:17.681: 	fps:               60/1
+12:38:17.681: 	format:            NV12
+12:38:17.681: 	YUV mode:          Rec. 709/Partial
+12:38:17.681: NV12 texture support not available
+12:38:17.681: P010 texture support not available
+12:38:17.686: Audio monitoring device:
+12:38:17.686: 	name: Default
+12:38:17.686: 	id: default
+12:38:17.686: ---------------------------------
+12:38:17.692: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:38:17.697: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:38:17.702: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:38:17.702: Failed to initialize module 'decklink.so'
+12:38:17.801: [pipewire] Available captures:
+12:38:17.801: [pipewire]     - Desktop capture
+12:38:17.801: [pipewire]     - Window capture
+12:38:17.816: v4l2loopback not installed, virtual camera disabled
+12:38:17.847: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:38:17.847: FFmpeg VAAPI H264 encoding not supported
+12:38:17.847: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+12:38:17.847: FFmpeg VAAPI HEVC encoding not supported
+12:38:17.905: ---------------------------------
+12:38:17.905:   Loaded Modules:
+12:38:17.905:     text-freetype2.so
+12:38:17.905:     rtmp-services.so
+12:38:17.905:     obs-x264.so
+12:38:17.905:     obs-vst.so
+12:38:17.905:     obs-transitions.so
+12:38:17.905:     obs-qsv11.so
+12:38:17.905:     obs-outputs.so
+12:38:17.905:     obs-libfdk.so
+12:38:17.905:     obs-filters.so
+12:38:17.905:     obs-ffmpeg.so
+12:38:17.905:     linux-v4l2.so
+12:38:17.905:     linux-pulseaudio.so
+12:38:17.905:     linux-pipewire.so
+12:38:17.905:     linux-jack.so
+12:38:17.905:     linux-capture.so
+12:38:17.905:     linux-alsa.so
+12:38:17.905:     image-source.so
+12:38:17.905:     frontend-tools.so
+12:38:17.905:     decklink-output-ui.so
+12:38:17.905:     decklink-captions.so
+12:38:17.905: ---------------------------------
+12:38:17.905: ==== Startup complete ===============================================
+12:38:17.945: All scene data cleared
+12:38:17.945: ------------------------------------------------
+12:38:17.950: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+12:38:17.951: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:38:17.951: pulse-input: Started recording from 'bluez_output.90_7A_58_D0_F2_93.1.monitor' (default)
+12:38:17.951: [Loaded global audio device]: 'Desktop Audio'
+12:38:17.951: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+12:38:17.951: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+12:38:17.951: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_6__source' (default)
+12:38:17.951: [Loaded global audio device]: 'Mic/Aux'
+12:38:17.952: PipeWire initialized
+12:38:17.953: Switched to scene 'Scene 2'
+12:38:17.953: ------------------------------------------------
+12:38:17.953: Loaded scenes:
+12:38:17.953: - scene 'Scene 2':
+12:38:17.953:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+12:38:17.953: ------------------------------------------------
+12:38:17.973: [pipewire] Screencast session created
+12:38:18.514: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+12:38:18.514: 
+12:38:20.535: [pipewire] Asking for desktop
+12:38:20.538: [pipewire] desktop selected, setting up screencast
+12:38:20.547: [pipewire] Server version: 1.0.0
+12:38:20.547: [pipewire] Library version: 1.0.0
+12:38:20.547: [pipewire] Header version: 1.0.0
+12:38:20.547: [pipewire] Created stream 0x55f865e5d200
+12:38:20.547: [pipewire] Stream 0x55f865e5d200 state: "connecting" (error: none)
+12:38:20.547: [pipewire] Playing stream 0x55f865e5d200
+12:38:20.547: [pipewire] Stream 0x55f865e5d200 state: "paused" (error: none)
+12:38:20.550: [pipewire] Negotiated format:
+12:38:20.550: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:38:20.550: [pipewire]     Modifier: 0x0
+12:38:20.550: [pipewire]     Size: 1920x1080
+12:38:20.550: [pipewire]     Framerate: 0/1
+12:38:20.551: [pipewire] Negotiated format:
+12:38:20.551: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:38:20.551: [pipewire]     Modifier: 0x100000000000008
+12:38:20.551: [pipewire]     Size: 1920x1080
+12:38:20.551: [pipewire]     Framerate: 0/1
+12:38:20.557: [pipewire] Stream 0x55f865e5d200 state: "streaming" (error: none)
+12:38:20.573: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+12:38:20.573: [pipewire] Renegotiating stream
+12:38:20.574: [pipewire] Negotiated format:
+12:38:20.574: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:38:20.574: [pipewire]     Modifier: 0x100000000000008
+12:38:20.574: [pipewire]     Size: 1920x1080
+12:38:20.574: [pipewire]     Framerate: 0/1
+12:38:20.577: [pipewire] Negotiated format:
+12:38:20.577: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:38:20.577: [pipewire]     Modifier: 0x100000000000006
+12:38:20.577: [pipewire]     Size: 1920x1080
+12:38:20.577: [pipewire]     Framerate: 0/1
+12:38:20.606: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+12:38:20.606: [pipewire] Renegotiating stream
+12:38:20.607: [pipewire] Stream 0x55f865e5d200 state: "paused" (error: none)
+12:38:20.607: [pipewire] Negotiated format:
+12:38:20.607: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:38:20.607: [pipewire]     Modifier: 0x100000000000006
+12:38:20.607: [pipewire]     Size: 1920x1080
+12:38:20.607: [pipewire]     Framerate: 0/1
+12:38:20.610: [pipewire] Negotiated format:
+12:38:20.610: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+12:38:20.610: [pipewire]     Modifier: 0x100000000000002
+12:38:20.610: [pipewire]     Size: 1920x1080
+12:38:20.610: [pipewire]     Framerate: 0/1
+12:38:20.618: [pipewire] Stream 0x55f865e5d200 state: "streaming" (error: none)
+12:38:32.688: Creating a popup with a parent, QWidgetWindow(0x55f863c34550, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x55f865e7ce90, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+12:38:40.751:   OpenType support missing for "Open Sans", script 11
+12:38:40.752:   OpenType support missing for "Droid Sans", script 11
+12:38:40.752:   OpenType support missing for "Nimbus Sans", script 11
+12:38:40.753:   OpenType support missing for "URW Gothic", script 11
+12:38:40.753:   OpenType support missing for "Nimbus Sans Narrow", script 11
+12:38:40.753:   OpenType support missing for "Font Awesome 6 Brands", script 11
+12:38:40.754:   OpenType support missing for "Font Awesome 6 Free", script 11
+12:38:40.754:   OpenType support missing for "Iosevka", script 11
+12:38:40.755:   OpenType support missing for "Iosevka Term", script 11
+12:38:40.755:   OpenType support missing for "Iosevka Fixed", script 11
+12:38:40.756:   OpenType support missing for "Fira Code", script 11
+12:38:40.756:   OpenType support missing for "FontAwesome", script 11
+12:38:40.756:   OpenType support missing for "JetBrains Mono", script 11
+12:38:40.757:   OpenType support missing for "JetBrains Mono NL", script 11
+12:38:40.757:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 11
+12:38:40.757:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 11
+12:38:40.758:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 11
+12:38:40.758:   OpenType support missing for "JetBrainsMono Nerd Font", script 11
+12:38:40.758:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 11
+12:38:40.759:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 11
+12:38:40.759:   OpenType support missing for "Roboto", script 11
+12:38:40.759:   OpenType support missing for "Liberation Mono", script 11
+12:38:40.759:   OpenType support missing for "Liberation Sans", script 11
+12:38:40.760:   OpenType support missing for "Liberation Serif", script 11
+12:38:40.760:   OpenType support missing for "Source Code Pro", script 11
+12:38:40.761:   OpenType support missing for "Noto Sans CJK JP", script 11
+12:38:40.762:   OpenType support missing for "Noto Sans CJK KR", script 11
+12:38:40.763:   OpenType support missing for "Noto Sans CJK SC", script 11
+12:38:40.763:   OpenType support missing for "Noto Sans CJK TC", script 11
+12:38:40.764:   OpenType support missing for "Noto Sans CJK HK", script 11
+12:38:40.764:   OpenType support missing for "Noto Sans Mono CJK JP", script 11
+12:38:40.765:   OpenType support missing for "Noto Sans Mono CJK KR", script 11
+12:38:40.765:   OpenType support missing for "Noto Sans Mono CJK SC", script 11
+12:38:40.766:   OpenType support missing for "Noto Sans Mono CJK TC", script 11
+12:38:40.767:   OpenType support missing for "Noto Sans Mono CJK HK", script 11
+12:38:40.768:   OpenType support missing for "Noto Serif CJK JP", script 11
+12:38:40.768:   OpenType support missing for "Noto Serif CJK KR", script 11
+12:38:40.769:   OpenType support missing for "Noto Serif CJK SC", script 11
+12:38:40.769:   OpenType support missing for "Noto Serif CJK TC", script 11
+12:38:40.770:   OpenType support missing for "Noto Serif CJK HK", script 11
+12:38:40.771:   OpenType support missing for "D050000L", script 11
+12:38:40.771:   OpenType support missing for "Standard Symbols PS", script 11
+12:38:40.771:   OpenType support missing for "Fantasque Sans Mono", script 11
+12:38:40.772:   OpenType support missing for "Droid Naskh Shift Alt", script 11
+12:38:40.772:   OpenType support missing for "SourceCodeVF", script 11
+12:38:40.773:   OpenType support missing for "SF UI  Text", script 11
+12:38:40.773:   OpenType support missing for "Droid Sans Mono", script 11
+12:38:40.773:   OpenType support missing for "C059", script 11
+12:38:40.774:   OpenType support missing for "Nimbus Mono PS", script 11
+12:38:40.774:   OpenType support missing for "Nimbus Roman", script 11
+12:38:40.774:   OpenType support missing for "P052", script 11
+12:38:40.775:   OpenType support missing for "Droid Arabic Kufi", script 11
+12:38:40.775:   OpenType support missing for "Cantarell", script 11
+12:38:40.775:   OpenType support missing for "Droid Serif", script 11
+12:38:40.776:   OpenType support missing for "URW Bookman", script 11
+12:38:40.776:   OpenType support missing for "Z003", script 11
+12:38:40.777:   OpenType support missing for "Noto Color Emoji", script 11
+12:38:40.777:   OpenType support missing for "", script 11
+12:38:40.777:   OpenType support missing for "", script 11
+12:38:40.778:   OpenType support missing for "", script 11
+12:38:40.778:   OpenType support missing for "", script 11
+12:38:40.778:   OpenType support missing for "", script 11
+12:38:40.779:   OpenType support missing for "", script 11
+12:38:40.780:   OpenType support missing for "", script 11
+12:38:40.780:   OpenType support missing for "", script 11
+12:38:40.781:   OpenType support missing for "", script 11
+12:38:40.781:   OpenType support missing for "", script 11
+12:38:40.781:   OpenType support missing for "", script 11
+12:38:40.782:   OpenType support missing for "", script 11
+12:38:40.782:   OpenType support missing for "", script 11
+12:38:40.782:   OpenType support missing for "", script 11
+12:38:40.783:   OpenType support missing for "", script 11
+12:38:40.783:   OpenType support missing for "", script 11
+12:38:40.783:   OpenType support missing for "", script 11
+12:38:40.784:   OpenType support missing for "", script 11
+12:38:40.784:   OpenType support missing for "", script 11
+12:38:40.784:   OpenType support missing for "", script 11
+12:38:40.785:   OpenType support missing for "", script 11
+12:38:40.785:   OpenType support missing for "", script 11
+12:38:40.785:   OpenType support missing for "", script 11
+12:38:40.786:   OpenType support missing for "", script 11
+12:38:40.786:   OpenType support missing for "", script 11
+12:38:40.786:   OpenType support missing for "", script 11
+12:38:40.787:   OpenType support missing for "", script 11
+12:38:40.787:   OpenType support missing for "", script 11
+12:38:40.787:   OpenType support missing for "", script 11
+12:38:40.788:   OpenType support missing for "", script 11
+12:38:40.788:   OpenType support missing for "", script 11
+12:38:40.840: Last log entry repeated for 85 more lines
+12:38:40.840:   OpenType support missing for "Droid Sans", script 11
+12:38:40.841:   OpenType support missing for "Nimbus Sans", script 11
+12:38:40.841:   OpenType support missing for "URW Gothic", script 11
+12:38:40.841:   OpenType support missing for "Nimbus Sans Narrow", script 11
+12:38:40.842:   OpenType support missing for "Font Awesome 6 Brands", script 11
+12:38:40.842:   OpenType support missing for "Font Awesome 6 Free", script 11
+12:38:40.842:   OpenType support missing for "Iosevka", script 11
+12:38:40.843:   OpenType support missing for "Iosevka Term", script 11
+12:38:40.843:   OpenType support missing for "Iosevka Fixed", script 11
+12:38:40.843:   OpenType support missing for "Fira Code", script 11
+12:38:40.844:   OpenType support missing for "FontAwesome", script 11
+12:38:40.844:   OpenType support missing for "JetBrains Mono", script 11
+12:38:40.844:   OpenType support missing for "JetBrains Mono NL", script 11
+12:38:40.845:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 11
+12:38:40.845:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 11
+12:38:40.845:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 11
+12:38:40.846:   OpenType support missing for "JetBrainsMono Nerd Font", script 11
+12:38:40.846:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 11
+12:38:40.846:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 11
+12:38:40.847:   OpenType support missing for "Roboto", script 11
+12:38:40.847:   OpenType support missing for "Liberation Mono", script 11
+12:38:40.847:   OpenType support missing for "Liberation Sans", script 11
+12:38:40.848:   OpenType support missing for "Liberation Serif", script 11
+12:38:40.848:   OpenType support missing for "Source Code Pro", script 11
+12:38:40.849:   OpenType support missing for "Noto Sans CJK JP", script 11
+12:38:40.849:   OpenType support missing for "Noto Sans CJK KR", script 11
+12:38:40.850:   OpenType support missing for "Noto Sans CJK SC", script 11
+12:38:40.850:   OpenType support missing for "Noto Sans CJK TC", script 11
+12:38:40.851:   OpenType support missing for "Noto Sans CJK HK", script 11
+12:38:40.851:   OpenType support missing for "Noto Sans Mono CJK JP", script 11
+12:38:40.852:   OpenType support missing for "Noto Sans Mono CJK KR", script 11
+12:38:40.852:   OpenType support missing for "Noto Sans Mono CJK SC", script 11
+12:38:40.853:   OpenType support missing for "Noto Sans Mono CJK TC", script 11
+12:38:40.854:   OpenType support missing for "Noto Sans Mono CJK HK", script 11
+12:38:40.854:   OpenType support missing for "Noto Serif CJK JP", script 11
+12:38:40.855:   OpenType support missing for "Noto Serif CJK KR", script 11
+12:38:40.856:   OpenType support missing for "Noto Serif CJK SC", script 11
+12:38:40.856:   OpenType support missing for "Noto Serif CJK TC", script 11
+12:38:40.857:   OpenType support missing for "Noto Serif CJK HK", script 11
+12:38:40.857:   OpenType support missing for "D050000L", script 11
+12:38:40.857:   OpenType support missing for "Standard Symbols PS", script 11
+12:38:40.858:   OpenType support missing for "Fantasque Sans Mono", script 11
+12:38:40.858:   OpenType support missing for "Droid Naskh Shift Alt", script 11
+12:38:40.858:   OpenType support missing for "Open Sans", script 11
+12:38:40.859:   OpenType support missing for "SourceCodeVF", script 11
+12:38:40.859:   OpenType support missing for "SF UI  Text", script 11
+12:38:40.859:   OpenType support missing for "Droid Sans Mono", script 11
+12:38:40.860:   OpenType support missing for "C059", script 11
+12:38:40.860:   OpenType support missing for "Nimbus Mono PS", script 11
+12:38:40.860:   OpenType support missing for "Nimbus Roman", script 11
+12:38:40.861:   OpenType support missing for "P052", script 11
+12:38:40.861:   OpenType support missing for "Droid Arabic Kufi", script 11
+12:38:40.861:   OpenType support missing for "Cantarell", script 11
+12:38:40.862:   OpenType support missing for "Droid Serif", script 11
+12:38:40.862:   OpenType support missing for "URW Bookman", script 11
+12:38:40.862:   OpenType support missing for "Z003", script 11
+12:38:40.863:   OpenType support missing for "Noto Color Emoji", script 11
+12:38:40.863:   OpenType support missing for "", script 11
+12:38:40.863:   OpenType support missing for "", script 11
+12:38:40.864:   OpenType support missing for "", script 11
+12:38:40.864:   OpenType support missing for "", script 11
+12:38:40.864:   OpenType support missing for "", script 11
+12:38:40.865:   OpenType support missing for "", script 11
+12:38:40.865:   OpenType support missing for "", script 11
+12:38:40.866:   OpenType support missing for "", script 11
+12:38:40.866:   OpenType support missing for "", script 11
+12:38:40.866:   OpenType support missing for "", script 11
+12:38:40.867:   OpenType support missing for "", script 11
+12:38:40.867:   OpenType support missing for "", script 11
+12:38:40.867:   OpenType support missing for "", script 11
+12:38:40.868:   OpenType support missing for "", script 11
+12:38:40.868:   OpenType support missing for "", script 11
+12:38:40.869:   OpenType support missing for "", script 11
+12:38:40.869:   OpenType support missing for "", script 11
+12:38:40.869:   OpenType support missing for "", script 11
+12:38:40.870:   OpenType support missing for "", script 11
+12:38:40.870:   OpenType support missing for "", script 11
+12:38:40.870:   OpenType support missing for "", script 11
+12:38:40.871:   OpenType support missing for "", script 11
+12:38:40.871:   OpenType support missing for "", script 11
+12:38:40.871:   OpenType support missing for "", script 11
+12:38:40.872:   OpenType support missing for "", script 11
+12:38:40.872:   OpenType support missing for "", script 11
+12:38:40.873:   OpenType support missing for "", script 11
+12:38:40.873:   OpenType support missing for "", script 11
+12:38:40.873:   OpenType support missing for "", script 11
+12:38:40.874:   OpenType support missing for "", script 11
+12:38:40.874:   OpenType support missing for "", script 11
+12:38:40.914: Last log entry repeated for 86 more lines
+12:38:40.914:   OpenType support missing for "Open Sans", script 12
+12:38:40.915:   OpenType support missing for "Nimbus Sans", script 12
+12:38:40.915:   OpenType support missing for "Droid Sans", script 12
+12:38:40.916:   OpenType support missing for "URW Gothic", script 12
+12:38:40.916:   OpenType support missing for "Nimbus Sans Narrow", script 12
+12:38:40.916:   OpenType support missing for "Font Awesome 6 Brands", script 12
+12:38:40.917:   OpenType support missing for "Font Awesome 6 Free", script 12
+12:38:40.917:   OpenType support missing for "Iosevka", script 12
+12:38:40.918:   OpenType support missing for "Iosevka Term", script 12
+12:38:40.918:   OpenType support missing for "Iosevka Fixed", script 12
+12:38:40.918:   OpenType support missing for "Fira Code", script 12
+12:38:40.919:   OpenType support missing for "FontAwesome", script 12
+12:38:40.919:   OpenType support missing for "JetBrains Mono", script 12
+12:38:40.919:   OpenType support missing for "JetBrains Mono NL", script 12
+12:38:40.919:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 12
+12:38:40.920:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 12
+12:38:40.920:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 12
+12:38:40.920:   OpenType support missing for "JetBrainsMono Nerd Font", script 12
+12:38:40.921:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 12
+12:38:40.921:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 12
+12:38:40.922:   OpenType support missing for "Roboto", script 12
+12:38:40.922:   OpenType support missing for "Liberation Mono", script 12
+12:38:40.922:   OpenType support missing for "Liberation Sans", script 12
+12:38:40.923:   OpenType support missing for "Liberation Serif", script 12
+12:38:40.923:   OpenType support missing for "Source Code Pro", script 12
+12:38:40.924:   OpenType support missing for "Noto Sans CJK JP", script 12
+12:38:40.924:   OpenType support missing for "Noto Sans CJK KR", script 12
+12:38:40.925:   OpenType support missing for "Noto Sans CJK SC", script 12
+12:38:40.925:   OpenType support missing for "Noto Sans CJK TC", script 12
+12:38:40.926:   OpenType support missing for "Noto Sans CJK HK", script 12
+12:38:40.926:   OpenType support missing for "Noto Sans Mono CJK JP", script 12
+12:38:40.927:   OpenType support missing for "Noto Sans Mono CJK KR", script 12
+12:38:40.928:   OpenType support missing for "Noto Sans Mono CJK SC", script 12
+12:38:40.928:   OpenType support missing for "Noto Sans Mono CJK TC", script 12
+12:38:40.929:   OpenType support missing for "Noto Sans Mono CJK HK", script 12
+12:38:40.929:   OpenType support missing for "Noto Serif CJK JP", script 12
+12:38:40.930:   OpenType support missing for "Noto Serif CJK KR", script 12
+12:38:40.930:   OpenType support missing for "Noto Serif CJK SC", script 12
+12:38:40.931:   OpenType support missing for "Noto Serif CJK TC", script 12
+12:38:40.931:   OpenType support missing for "Noto Serif CJK HK", script 12
+12:38:40.932:   OpenType support missing for "D050000L", script 12
+12:38:40.932:   OpenType support missing for "Standard Symbols PS", script 12
+12:38:40.932:   OpenType support missing for "Fantasque Sans Mono", script 12
+12:38:40.933:   OpenType support missing for "Droid Naskh Shift Alt", script 12
+12:38:40.933:   OpenType support missing for "SourceCodeVF", script 12
+12:38:40.933:   OpenType support missing for "SF UI  Text", script 12
+12:38:40.934:   OpenType support missing for "Droid Sans Mono", script 12
+12:38:40.934:   OpenType support missing for "C059", script 12
+12:38:40.934:   OpenType support missing for "Nimbus Mono PS", script 12
+12:38:40.935:   OpenType support missing for "Nimbus Roman", script 12
+12:38:40.935:   OpenType support missing for "P052", script 12
+12:38:40.935:   OpenType support missing for "Droid Arabic Kufi", script 12
+12:38:40.936:   OpenType support missing for "Cantarell", script 12
+12:38:40.936:   OpenType support missing for "Droid Serif", script 12
+12:38:40.936:   OpenType support missing for "URW Bookman", script 12
+12:38:40.937:   OpenType support missing for "Z003", script 12
+12:38:40.937:   OpenType support missing for "Noto Color Emoji", script 12
+12:38:40.938:   OpenType support missing for "", script 12
+12:38:40.938:   OpenType support missing for "", script 12
+12:38:40.939:   OpenType support missing for "", script 12
+12:38:40.939:   OpenType support missing for "", script 12
+12:38:40.939:   OpenType support missing for "", script 12
+12:38:40.940:   OpenType support missing for "", script 12
+12:38:40.940:   OpenType support missing for "", script 12
+12:38:40.941:   OpenType support missing for "", script 12
+12:38:40.941:   OpenType support missing for "", script 12
+12:38:40.941:   OpenType support missing for "", script 12
+12:38:40.942:   OpenType support missing for "", script 12
+12:38:40.942:   OpenType support missing for "", script 12
+12:38:40.942:   OpenType support missing for "", script 12
+12:38:40.943:   OpenType support missing for "", script 12
+12:38:40.943:   OpenType support missing for "", script 12
+12:38:40.944:   OpenType support missing for "", script 12
+12:38:40.944:   OpenType support missing for "", script 12
+12:38:40.944:   OpenType support missing for "", script 12
+12:38:40.945:   OpenType support missing for "", script 12
+12:38:40.945:   OpenType support missing for "", script 12
+12:38:40.945:   OpenType support missing for "", script 12
+12:38:40.945:   OpenType support missing for "", script 12
+12:38:40.946:   OpenType support missing for "", script 12
+12:38:40.946:   OpenType support missing for "", script 12
+12:38:40.946:   OpenType support missing for "", script 12
+12:38:40.947:   OpenType support missing for "", script 12
+12:38:40.947:   OpenType support missing for "", script 12
+12:38:40.947:   OpenType support missing for "", script 12
+12:38:40.948:   OpenType support missing for "", script 12
+12:38:40.948:   OpenType support missing for "", script 12
+12:38:40.948:   OpenType support missing for "", script 12
+12:38:40.989: Last log entry repeated for 85 more lines
+12:38:40.989:   OpenType support missing for "Nimbus Sans", script 12
+12:38:40.990:   OpenType support missing for "Droid Sans", script 12
+12:38:40.990:   OpenType support missing for "URW Gothic", script 12
+12:38:40.990:   OpenType support missing for "Nimbus Sans Narrow", script 12
+12:38:40.990:   OpenType support missing for "Font Awesome 6 Brands", script 12
+12:38:40.991:   OpenType support missing for "Font Awesome 6 Free", script 12
+12:38:40.991:   OpenType support missing for "Iosevka", script 12
+12:38:40.992:   OpenType support missing for "Iosevka Term", script 12
+12:38:40.992:   OpenType support missing for "Iosevka Fixed", script 12
+12:38:40.992:   OpenType support missing for "Fira Code", script 12
+12:38:40.993:   OpenType support missing for "FontAwesome", script 12
+12:38:40.993:   OpenType support missing for "JetBrains Mono", script 12
+12:38:40.993:   OpenType support missing for "JetBrains Mono NL", script 12
+12:38:40.994:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 12
+12:38:40.994:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 12
+12:38:40.994:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 12
+12:38:40.995:   OpenType support missing for "JetBrainsMono Nerd Font", script 12
+12:38:40.995:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 12
+12:38:40.995:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 12
+12:38:40.996:   OpenType support missing for "Roboto", script 12
+12:38:40.996:   OpenType support missing for "Liberation Mono", script 12
+12:38:40.996:   OpenType support missing for "Liberation Sans", script 12
+12:38:40.996:   OpenType support missing for "Liberation Serif", script 12
+12:38:40.997:   OpenType support missing for "Source Code Pro", script 12
+12:38:40.997:   OpenType support missing for "Noto Sans CJK JP", script 12
+12:38:40.998:   OpenType support missing for "Noto Sans CJK KR", script 12
+12:38:40.998:   OpenType support missing for "Noto Sans CJK SC", script 12
+12:38:40.999:   OpenType support missing for "Noto Sans CJK TC", script 12
+12:38:41.000:   OpenType support missing for "Noto Sans CJK HK", script 12
+12:38:41.000:   OpenType support missing for "Noto Sans Mono CJK JP", script 12
+12:38:41.001:   OpenType support missing for "Noto Sans Mono CJK KR", script 12
+12:38:41.001:   OpenType support missing for "Noto Sans Mono CJK SC", script 12
+12:38:41.002:   OpenType support missing for "Noto Sans Mono CJK TC", script 12
+12:38:41.002:   OpenType support missing for "Noto Sans Mono CJK HK", script 12
+12:38:41.003:   OpenType support missing for "Noto Serif CJK JP", script 12
+12:38:41.003:   OpenType support missing for "Noto Serif CJK KR", script 12
+12:38:41.004:   OpenType support missing for "Noto Serif CJK SC", script 12
+12:38:41.005:   OpenType support missing for "Noto Serif CJK TC", script 12
+12:38:41.006:   OpenType support missing for "Noto Serif CJK HK", script 12
+12:38:41.006:   OpenType support missing for "D050000L", script 12
+12:38:41.006:   OpenType support missing for "Standard Symbols PS", script 12
+12:38:41.007:   OpenType support missing for "Fantasque Sans Mono", script 12
+12:38:41.007:   OpenType support missing for "Droid Naskh Shift Alt", script 12
+12:38:41.007:   OpenType support missing for "Open Sans", script 12
+12:38:41.007:   OpenType support missing for "SourceCodeVF", script 12
+12:38:41.008:   OpenType support missing for "SF UI  Text", script 12
+12:38:41.008:   OpenType support missing for "Droid Sans Mono", script 12
+12:38:41.008:   OpenType support missing for "C059", script 12
+12:38:41.009:   OpenType support missing for "Nimbus Mono PS", script 12
+12:38:41.009:   OpenType support missing for "Nimbus Roman", script 12
+12:38:41.009:   OpenType support missing for "P052", script 12
+12:38:41.010:   OpenType support missing for "Droid Arabic Kufi", script 12
+12:38:41.010:   OpenType support missing for "Cantarell", script 12
+12:38:41.010:   OpenType support missing for "Droid Serif", script 12
+12:38:41.011:   OpenType support missing for "URW Bookman", script 12
+12:38:41.011:   OpenType support missing for "Z003", script 12
+12:38:41.012:   OpenType support missing for "Noto Color Emoji", script 12
+12:38:41.012:   OpenType support missing for "", script 12
+12:38:41.012:   OpenType support missing for "", script 12
+12:38:41.013:   OpenType support missing for "", script 12
+12:38:41.013:   OpenType support missing for "", script 12
+12:38:41.013:   OpenType support missing for "", script 12
+12:38:41.014:   OpenType support missing for "", script 12
+12:38:41.014:   OpenType support missing for "", script 12
+12:38:41.015:   OpenType support missing for "", script 12
+12:38:41.015:   OpenType support missing for "", script 12
+12:38:41.015:   OpenType support missing for "", script 12
+12:38:41.016:   OpenType support missing for "", script 12
+12:38:41.016:   OpenType support missing for "", script 12
+12:38:41.017:   OpenType support missing for "", script 12
+12:38:41.017:   OpenType support missing for "", script 12
+12:38:41.017:   OpenType support missing for "", script 12
+12:38:41.018:   OpenType support missing for "", script 12
+12:38:41.018:   OpenType support missing for "", script 12
+12:38:41.018:   OpenType support missing for "", script 12
+12:38:41.019:   OpenType support missing for "", script 12
+12:38:41.019:   OpenType support missing for "", script 12
+12:38:41.019:   OpenType support missing for "", script 12
+12:38:41.019:   OpenType support missing for "", script 12
+12:38:41.020:   OpenType support missing for "", script 12
+12:38:41.020:   OpenType support missing for "", script 12
+12:38:41.020:   OpenType support missing for "", script 12
+12:38:41.021:   OpenType support missing for "", script 12
+12:38:41.021:   OpenType support missing for "", script 12
+12:38:41.022:   OpenType support missing for "", script 12
+12:38:41.022:   OpenType support missing for "", script 12
+12:38:41.022:   OpenType support missing for "", script 12
+12:38:41.023:   OpenType support missing for "", script 12
+12:38:41.063: Last log entry repeated for 86 more lines
+12:38:41.063:   OpenType support missing for "Open Sans", script 16
+12:38:41.064:   OpenType support missing for "Droid Sans", script 16
+12:38:41.064:   OpenType support missing for "Nimbus Sans", script 16
+12:38:41.064:   OpenType support missing for "URW Gothic", script 16
+12:38:41.065:   OpenType support missing for "Nimbus Sans Narrow", script 16
+12:38:41.065:   OpenType support missing for "Font Awesome 6 Brands", script 16
+12:38:41.065:   OpenType support missing for "Font Awesome 6 Free", script 16
+12:38:41.066:   OpenType support missing for "Iosevka", script 16
+12:38:41.066:   OpenType support missing for "Iosevka Term", script 16
+12:38:41.066:   OpenType support missing for "Iosevka Fixed", script 16
+12:38:41.067:   OpenType support missing for "Fira Code", script 16
+12:38:41.067:   OpenType support missing for "FontAwesome", script 16
+12:38:41.067:   OpenType support missing for "JetBrains Mono", script 16
+12:38:41.068:   OpenType support missing for "JetBrains Mono NL", script 16
+12:38:41.068:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 16
+12:38:41.068:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 16
+12:38:41.069:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 16
+12:38:41.069:   OpenType support missing for "JetBrainsMono Nerd Font", script 16
+12:38:41.069:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 16
+12:38:41.070:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 16
+12:38:41.070:   OpenType support missing for "Roboto", script 16
+12:38:41.070:   OpenType support missing for "Liberation Mono", script 16
+12:38:41.071:   OpenType support missing for "Liberation Sans", script 16
+12:38:41.071:   OpenType support missing for "Liberation Serif", script 16
+12:38:41.072:   OpenType support missing for "Source Code Pro", script 16
+12:38:41.072:   OpenType support missing for "Noto Sans CJK JP", script 16
+12:38:41.073:   OpenType support missing for "Noto Sans CJK KR", script 16
+12:38:41.073:   OpenType support missing for "Noto Sans CJK SC", script 16
+12:38:41.074:   OpenType support missing for "Noto Sans CJK TC", script 16
+12:38:41.074:   OpenType support missing for "Noto Sans CJK HK", script 16
+12:38:41.075:   OpenType support missing for "Noto Sans Mono CJK JP", script 16
+12:38:41.075:   OpenType support missing for "Noto Sans Mono CJK KR", script 16
+12:38:41.076:   OpenType support missing for "Noto Sans Mono CJK SC", script 16
+12:38:41.076:   OpenType support missing for "Noto Sans Mono CJK TC", script 16
+12:38:41.077:   OpenType support missing for "Noto Sans Mono CJK HK", script 16
+12:38:41.078:   OpenType support missing for "Noto Serif CJK JP", script 16
+12:38:41.078:   OpenType support missing for "Noto Serif CJK KR", script 16
+12:38:41.079:   OpenType support missing for "Noto Serif CJK SC", script 16
+12:38:41.079:   OpenType support missing for "Noto Serif CJK TC", script 16
+12:38:41.080:   OpenType support missing for "Noto Serif CJK HK", script 16
+12:38:41.080:   OpenType support missing for "D050000L", script 16
+12:38:41.081:   OpenType support missing for "Standard Symbols PS", script 16
+12:38:41.081:   OpenType support missing for "Fantasque Sans Mono", script 16
+12:38:41.081:   OpenType support missing for "Droid Naskh Shift Alt", script 16
+12:38:41.082:   OpenType support missing for "SourceCodeVF", script 16
+12:38:41.082:   OpenType support missing for "SF UI  Text", script 16
+12:38:41.082:   OpenType support missing for "Droid Sans Mono", script 16
+12:38:41.083:   OpenType support missing for "C059", script 16
+12:38:41.083:   OpenType support missing for "Nimbus Mono PS", script 16
+12:38:41.083:   OpenType support missing for "Nimbus Roman", script 16
+12:38:41.084:   OpenType support missing for "P052", script 16
+12:38:41.084:   OpenType support missing for "Droid Arabic Kufi", script 16
+12:38:41.084:   OpenType support missing for "Cantarell", script 16
+12:38:41.085:   OpenType support missing for "Droid Serif", script 16
+12:38:41.085:   OpenType support missing for "URW Bookman", script 16
+12:38:41.085:   OpenType support missing for "Z003", script 16
+12:38:41.086:   OpenType support missing for "Noto Color Emoji", script 16
+12:38:41.086:   OpenType support missing for "", script 16
+12:38:41.087:   OpenType support missing for "", script 16
+12:38:41.087:   OpenType support missing for "", script 16
+12:38:41.087:   OpenType support missing for "", script 16
+12:38:41.088:   OpenType support missing for "", script 16
+12:38:41.088:   OpenType support missing for "", script 16
+12:38:41.089:   OpenType support missing for "", script 16
+12:38:41.089:   OpenType support missing for "", script 16
+12:38:41.090:   OpenType support missing for "", script 16
+12:38:41.090:   OpenType support missing for "", script 16
+12:38:41.090:   OpenType support missing for "", script 16
+12:38:41.091:   OpenType support missing for "", script 16
+12:38:41.091:   OpenType support missing for "", script 16
+12:38:41.091:   OpenType support missing for "", script 16
+12:38:41.092:   OpenType support missing for "", script 16
+12:38:41.092:   OpenType support missing for "", script 16
+12:38:41.093:   OpenType support missing for "", script 16
+12:38:41.093:   OpenType support missing for "", script 16
+12:38:41.093:   OpenType support missing for "", script 16
+12:38:41.094:   OpenType support missing for "", script 16
+12:38:41.094:   OpenType support missing for "", script 16
+12:38:41.094:   OpenType support missing for "", script 16
+12:38:41.094:   OpenType support missing for "", script 16
+12:38:41.095:   OpenType support missing for "", script 16
+12:38:41.095:   OpenType support missing for "", script 16
+12:38:41.095:   OpenType support missing for "", script 16
+12:38:41.096:   OpenType support missing for "", script 16
+12:38:41.096:   OpenType support missing for "", script 16
+12:38:41.096:   OpenType support missing for "", script 16
+12:38:41.097:   OpenType support missing for "", script 16
+12:38:41.097:   OpenType support missing for "", script 16
+12:38:41.137: Last log entry repeated for 85 more lines
+12:38:41.138:   OpenType support missing for "Droid Sans", script 16
+12:38:41.138:   OpenType support missing for "Nimbus Sans", script 16
+12:38:41.138:   OpenType support missing for "URW Gothic", script 16
+12:38:41.139:   OpenType support missing for "Nimbus Sans Narrow", script 16
+12:38:41.139:   OpenType support missing for "Font Awesome 6 Brands", script 16
+12:38:41.139:   OpenType support missing for "Font Awesome 6 Free", script 16
+12:38:41.140:   OpenType support missing for "Iosevka", script 16
+12:38:41.140:   OpenType support missing for "Iosevka Term", script 16
+12:38:41.141:   OpenType support missing for "Iosevka Fixed", script 16
+12:38:41.141:   OpenType support missing for "Fira Code", script 16
+12:38:41.141:   OpenType support missing for "FontAwesome", script 16
+12:38:41.142:   OpenType support missing for "JetBrains Mono", script 16
+12:38:41.142:   OpenType support missing for "JetBrains Mono NL", script 16
+12:38:41.142:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 16
+12:38:41.142:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 16
+12:38:41.143:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 16
+12:38:41.143:   OpenType support missing for "JetBrainsMono Nerd Font", script 16
+12:38:41.143:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 16
+12:38:41.144:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 16
+12:38:41.144:   OpenType support missing for "Roboto", script 16
+12:38:41.144:   OpenType support missing for "Liberation Mono", script 16
+12:38:41.145:   OpenType support missing for "Liberation Sans", script 16
+12:38:41.145:   OpenType support missing for "Liberation Serif", script 16
+12:38:41.145:   OpenType support missing for "Source Code Pro", script 16
+12:38:41.146:   OpenType support missing for "Noto Sans CJK JP", script 16
+12:38:41.147:   OpenType support missing for "Noto Sans CJK KR", script 16
+12:38:41.147:   OpenType support missing for "Noto Sans CJK SC", script 16
+12:38:41.148:   OpenType support missing for "Noto Sans CJK TC", script 16
+12:38:41.148:   OpenType support missing for "Noto Sans CJK HK", script 16
+12:38:41.149:   OpenType support missing for "Noto Sans Mono CJK JP", script 16
+12:38:41.149:   OpenType support missing for "Noto Sans Mono CJK KR", script 16
+12:38:41.150:   OpenType support missing for "Noto Sans Mono CJK SC", script 16
+12:38:41.150:   OpenType support missing for "Noto Sans Mono CJK TC", script 16
+12:38:41.151:   OpenType support missing for "Noto Sans Mono CJK HK", script 16
+12:38:41.151:   OpenType support missing for "Noto Serif CJK JP", script 16
+12:38:41.152:   OpenType support missing for "Noto Serif CJK KR", script 16
+12:38:41.153:   OpenType support missing for "Noto Serif CJK SC", script 16
+12:38:41.153:   OpenType support missing for "Noto Serif CJK TC", script 16
+12:38:41.154:   OpenType support missing for "Noto Serif CJK HK", script 16
+12:38:41.154:   OpenType support missing for "D050000L", script 16
+12:38:41.155:   OpenType support missing for "Standard Symbols PS", script 16
+12:38:41.155:   OpenType support missing for "Fantasque Sans Mono", script 16
+12:38:41.155:   OpenType support missing for "Droid Naskh Shift Alt", script 16
+12:38:41.155:   OpenType support missing for "Open Sans", script 16
+12:38:41.156:   OpenType support missing for "SourceCodeVF", script 16
+12:38:41.156:   OpenType support missing for "SF UI  Text", script 16
+12:38:41.157:   OpenType support missing for "Droid Sans Mono", script 16
+12:38:41.157:   OpenType support missing for "C059", script 16
+12:38:41.157:   OpenType support missing for "Nimbus Mono PS", script 16
+12:38:41.158:   OpenType support missing for "Nimbus Roman", script 16
+12:38:41.158:   OpenType support missing for "P052", script 16
+12:38:41.158:   OpenType support missing for "Droid Arabic Kufi", script 16
+12:38:41.159:   OpenType support missing for "Cantarell", script 16
+12:38:41.159:   OpenType support missing for "Droid Serif", script 16
+12:38:41.159:   OpenType support missing for "URW Bookman", script 16
+12:38:41.160:   OpenType support missing for "Z003", script 16
+12:38:41.160:   OpenType support missing for "Noto Color Emoji", script 16
+12:38:41.160:   OpenType support missing for "", script 16
+12:38:41.161:   OpenType support missing for "", script 16
+12:38:41.161:   OpenType support missing for "", script 16
+12:38:41.161:   OpenType support missing for "", script 16
+12:38:41.162:   OpenType support missing for "", script 16
+12:38:41.162:   OpenType support missing for "", script 16
+12:38:41.163:   OpenType support missing for "", script 16
+12:38:41.163:   OpenType support missing for "", script 16
+12:38:41.163:   OpenType support missing for "", script 16
+12:38:41.164:   OpenType support missing for "", script 16
+12:38:41.164:   OpenType support missing for "", script 16
+12:38:41.165:   OpenType support missing for "", script 16
+12:38:41.165:   OpenType support missing for "", script 16
+12:38:41.165:   OpenType support missing for "", script 16
+12:38:41.166:   OpenType support missing for "", script 16
+12:38:41.166:   OpenType support missing for "", script 16
+12:38:41.166:   OpenType support missing for "", script 16
+12:38:41.167:   OpenType support missing for "", script 16
+12:38:41.167:   OpenType support missing for "", script 16
+12:38:41.167:   OpenType support missing for "", script 16
+12:38:41.167:   OpenType support missing for "", script 16
+12:38:41.168:   OpenType support missing for "", script 16
+12:38:41.168:   OpenType support missing for "", script 16
+12:38:41.168:   OpenType support missing for "", script 16
+12:38:41.169:   OpenType support missing for "", script 16
+12:38:41.169:   OpenType support missing for "", script 16
+12:38:41.169:   OpenType support missing for "", script 16
+12:38:41.170:   OpenType support missing for "", script 16
+12:38:41.170:   OpenType support missing for "", script 16
+12:38:41.170:   OpenType support missing for "", script 16
+12:38:41.171:   OpenType support missing for "", script 16
+12:38:41.211: Last log entry repeated for 86 more lines
+12:38:41.211:   OpenType support missing for "Open Sans", script 20
+12:38:41.212:   OpenType support missing for "Nimbus Sans", script 20
+12:38:41.212:   OpenType support missing for "Droid Sans", script 20
+12:38:41.212:   OpenType support missing for "URW Gothic", script 20
+12:38:41.213:   OpenType support missing for "Nimbus Sans Narrow", script 20
+12:38:41.213:   OpenType support missing for "Font Awesome 6 Brands", script 20
+12:38:41.213:   OpenType support missing for "Font Awesome 6 Free", script 20
+12:38:41.214:   OpenType support missing for "Iosevka", script 20
+12:38:41.214:   OpenType support missing for "Iosevka Term", script 20
+12:38:41.215:   OpenType support missing for "Iosevka Fixed", script 20
+12:38:41.215:   OpenType support missing for "Fira Code", script 20
+12:38:41.215:   OpenType support missing for "FontAwesome", script 20
+12:38:41.216:   OpenType support missing for "JetBrains Mono", script 20
+12:38:41.216:   OpenType support missing for "JetBrains Mono NL", script 20
+12:38:41.216:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 20
+12:38:41.217:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 20
+12:38:41.217:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 20
+12:38:41.217:   OpenType support missing for "JetBrainsMono Nerd Font", script 20
+12:38:41.218:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 20
+12:38:41.218:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 20
+12:38:41.218:   OpenType support missing for "Roboto", script 20
+12:38:41.218:   OpenType support missing for "Liberation Mono", script 20
+12:38:41.219:   OpenType support missing for "Liberation Sans", script 20
+12:38:41.219:   OpenType support missing for "Liberation Serif", script 20
+12:38:41.219:   OpenType support missing for "Source Code Pro", script 20
+12:38:41.220:   OpenType support missing for "Noto Sans CJK JP", script 20
+12:38:41.221:   OpenType support missing for "Noto Sans CJK KR", script 20
+12:38:41.221:   OpenType support missing for "Noto Sans CJK SC", script 20
+12:38:41.222:   OpenType support missing for "Noto Sans CJK TC", script 20
+12:38:41.223:   OpenType support missing for "Noto Sans CJK HK", script 20
+12:38:41.223:   OpenType support missing for "Noto Sans Mono CJK JP", script 20
+12:38:41.224:   OpenType support missing for "Noto Sans Mono CJK KR", script 20
+12:38:41.224:   OpenType support missing for "Noto Sans Mono CJK SC", script 20
+12:38:41.225:   OpenType support missing for "Noto Sans Mono CJK TC", script 20
+12:38:41.225:   OpenType support missing for "Noto Sans Mono CJK HK", script 20
+12:38:41.226:   OpenType support missing for "Noto Serif CJK JP", script 20
+12:38:41.227:   OpenType support missing for "Noto Serif CJK KR", script 20
+12:38:41.227:   OpenType support missing for "Noto Serif CJK SC", script 20
+12:38:41.228:   OpenType support missing for "Noto Serif CJK TC", script 20
+12:38:41.228:   OpenType support missing for "Noto Serif CJK HK", script 20
+12:38:41.228:   OpenType support missing for "D050000L", script 20
+12:38:41.229:   OpenType support missing for "Standard Symbols PS", script 20
+12:38:41.229:   OpenType support missing for "Fantasque Sans Mono", script 20
+12:38:41.229:   OpenType support missing for "Droid Naskh Shift Alt", script 20
+12:38:41.230:   OpenType support missing for "SourceCodeVF", script 20
+12:38:41.230:   OpenType support missing for "SF UI  Text", script 20
+12:38:41.230:   OpenType support missing for "Droid Sans Mono", script 20
+12:38:41.231:   OpenType support missing for "C059", script 20
+12:38:41.231:   OpenType support missing for "Nimbus Mono PS", script 20
+12:38:41.231:   OpenType support missing for "Nimbus Roman", script 20
+12:38:41.232:   OpenType support missing for "P052", script 20
+12:38:41.232:   OpenType support missing for "Droid Arabic Kufi", script 20
+12:38:41.232:   OpenType support missing for "Cantarell", script 20
+12:38:41.233:   OpenType support missing for "Droid Serif", script 20
+12:38:41.233:   OpenType support missing for "URW Bookman", script 20
+12:38:41.234:   OpenType support missing for "Z003", script 20
+12:38:41.234:   OpenType support missing for "Noto Color Emoji", script 20
+12:38:41.234:   OpenType support missing for "", script 20
+12:38:41.235:   OpenType support missing for "", script 20
+12:38:41.235:   OpenType support missing for "", script 20
+12:38:41.235:   OpenType support missing for "", script 20
+12:38:41.236:   OpenType support missing for "", script 20
+12:38:41.236:   OpenType support missing for "", script 20
+12:38:41.237:   OpenType support missing for "", script 20
+12:38:41.237:   OpenType support missing for "", script 20
+12:38:41.237:   OpenType support missing for "", script 20
+12:38:41.238:   OpenType support missing for "", script 20
+12:38:41.238:   OpenType support missing for "", script 20
+12:38:41.239:   OpenType support missing for "", script 20
+12:38:41.239:   OpenType support missing for "", script 20
+12:38:41.240:   OpenType support missing for "", script 20
+12:38:41.240:   OpenType support missing for "", script 20
+12:38:41.240:   OpenType support missing for "", script 20
+12:38:41.241:   OpenType support missing for "", script 20
+12:38:41.241:   OpenType support missing for "", script 20
+12:38:41.241:   OpenType support missing for "", script 20
+12:38:41.241:   OpenType support missing for "", script 20
+12:38:41.242:   OpenType support missing for "", script 20
+12:38:41.242:   OpenType support missing for "", script 20
+12:38:41.243:   OpenType support missing for "", script 20
+12:38:41.243:   OpenType support missing for "", script 20
+12:38:41.243:   OpenType support missing for "", script 20
+12:38:41.244:   OpenType support missing for "", script 20
+12:38:41.244:   OpenType support missing for "", script 20
+12:38:41.244:   OpenType support missing for "", script 20
+12:38:41.244:   OpenType support missing for "", script 20
+12:38:41.245:   OpenType support missing for "", script 20
+12:38:41.245:   OpenType support missing for "", script 20
+12:38:41.285: Last log entry repeated for 85 more lines
+12:38:41.285:   OpenType support missing for "Nimbus Sans", script 20
+12:38:41.286:   OpenType support missing for "Droid Sans", script 20
+12:38:41.286:   OpenType support missing for "URW Gothic", script 20
+12:38:41.286:   OpenType support missing for "Nimbus Sans Narrow", script 20
+12:38:41.287:   OpenType support missing for "Font Awesome 6 Brands", script 20
+12:38:41.287:   OpenType support missing for "Font Awesome 6 Free", script 20
+12:38:41.288:   OpenType support missing for "Iosevka", script 20
+12:38:41.288:   OpenType support missing for "Iosevka Term", script 20
+12:38:41.289:   OpenType support missing for "Iosevka Fixed", script 20
+12:38:41.289:   OpenType support missing for "Fira Code", script 20
+12:38:41.289:   OpenType support missing for "FontAwesome", script 20
+12:38:41.290:   OpenType support missing for "JetBrains Mono", script 20
+12:38:41.290:   OpenType support missing for "JetBrains Mono NL", script 20
+12:38:41.290:   OpenType support missing for "JetBrainsMonoNL Nerd Font", script 20
+12:38:41.290:   OpenType support missing for "JetBrainsMonoNL Nerd Font Mono", script 20
+12:38:41.291:   OpenType support missing for "JetBrainsMonoNL Nerd Font Propo", script 20
+12:38:41.291:   OpenType support missing for "JetBrainsMono Nerd Font", script 20
+12:38:41.291:   OpenType support missing for "JetBrainsMono Nerd Font Mono", script 20
+12:38:41.292:   OpenType support missing for "JetBrainsMono Nerd Font Propo", script 20
+12:38:41.292:   OpenType support missing for "Roboto", script 20
+12:38:41.292:   OpenType support missing for "Liberation Mono", script 20
+12:38:41.293:   OpenType support missing for "Liberation Sans", script 20
+12:38:41.293:   OpenType support missing for "Liberation Serif", script 20
+12:38:41.293:   OpenType support missing for "Source Code Pro", script 20
+12:38:41.294:   OpenType support missing for "Noto Sans CJK JP", script 20
+12:38:41.295:   OpenType support missing for "Noto Sans CJK KR", script 20
+12:38:41.295:   OpenType support missing for "Noto Sans CJK SC", script 20
+12:38:41.296:   OpenType support missing for "Noto Sans CJK TC", script 20
+12:38:41.296:   OpenType support missing for "Noto Sans CJK HK", script 20
+12:38:41.297:   OpenType support missing for "Noto Sans Mono CJK JP", script 20
+12:38:41.297:   OpenType support missing for "Noto Sans Mono CJK KR", script 20
+12:38:41.298:   OpenType support missing for "Noto Sans Mono CJK SC", script 20
+12:38:41.298:   OpenType support missing for "Noto Sans Mono CJK TC", script 20
+12:38:41.299:   OpenType support missing for "Noto Sans Mono CJK HK", script 20
+12:38:41.299:   OpenType support missing for "Noto Serif CJK JP", script 20
+12:38:41.300:   OpenType support missing for "Noto Serif CJK KR", script 20
+12:38:41.301:   OpenType support missing for "Noto Serif CJK SC", script 20
+12:38:41.301:   OpenType support missing for "Noto Serif CJK TC", script 20
+12:38:41.302:   OpenType support missing for "Noto Serif CJK HK", script 20
+12:38:41.302:   OpenType support missing for "D050000L", script 20
+12:38:41.302:   OpenType support missing for "Standard Symbols PS", script 20
+12:38:41.303:   OpenType support missing for "Fantasque Sans Mono", script 20
+12:38:41.303:   OpenType support missing for "Droid Naskh Shift Alt", script 20
+12:38:41.303:   OpenType support missing for "Open Sans", script 20
+12:38:41.304:   OpenType support missing for "SourceCodeVF", script 20
+12:38:41.304:   OpenType support missing for "SF UI  Text", script 20
+12:38:41.304:   OpenType support missing for "Droid Sans Mono", script 20
+12:38:41.305:   OpenType support missing for "C059", script 20
+12:38:41.305:   OpenType support missing for "Nimbus Mono PS", script 20
+12:38:41.305:   OpenType support missing for "Nimbus Roman", script 20
+12:38:41.306:   OpenType support missing for "P052", script 20
+12:38:41.306:   OpenType support missing for "Droid Arabic Kufi", script 20
+12:38:41.306:   OpenType support missing for "Cantarell", script 20
+12:38:41.307:   OpenType support missing for "Droid Serif", script 20
+12:38:41.307:   OpenType support missing for "URW Bookman", script 20
+12:38:41.308:   OpenType support missing for "Z003", script 20
+12:38:41.308:   OpenType support missing for "Noto Color Emoji", script 20
+12:38:41.308:   OpenType support missing for "", script 20
+12:38:41.309:   OpenType support missing for "", script 20
+12:38:41.309:   OpenType support missing for "", script 20
+12:38:41.309:   OpenType support missing for "", script 20
+12:38:41.310:   OpenType support missing for "", script 20
+12:38:41.310:   OpenType support missing for "", script 20
+12:38:41.310:   OpenType support missing for "", script 20
+12:38:41.311:   OpenType support missing for "", script 20
+12:38:41.311:   OpenType support missing for "", script 20
+12:38:41.312:   OpenType support missing for "", script 20
+12:38:41.312:   OpenType support missing for "", script 20
+12:38:41.312:   OpenType support missing for "", script 20
+12:38:41.313:   OpenType support missing for "", script 20
+12:38:41.313:   OpenType support missing for "", script 20
+12:38:41.313:   OpenType support missing for "", script 20
+12:38:41.314:   OpenType support missing for "", script 20
+12:38:41.314:   OpenType support missing for "", script 20
+12:38:41.314:   OpenType support missing for "", script 20
+12:38:41.315:   OpenType support missing for "", script 20
+12:38:41.315:   OpenType support missing for "", script 20
+12:38:41.315:   OpenType support missing for "", script 20
+12:38:41.316:   OpenType support missing for "", script 20
+12:38:41.316:   OpenType support missing for "", script 20
+12:38:41.316:   OpenType support missing for "", script 20
+12:38:41.317:   OpenType support missing for "", script 20
+12:38:41.317:   OpenType support missing for "", script 20
+12:38:41.317:   OpenType support missing for "", script 20
+12:38:41.318:   OpenType support missing for "", script 20
+12:38:41.318:   OpenType support missing for "", script 20
+12:38:41.318:   OpenType support missing for "", script 20
+12:38:41.319:   OpenType support missing for "", script 20
+12:38:57.720: Last log entry repeated for 86 more lines
+12:38:57.720: Number of remaining views: 1
+12:38:57.720: ---------------------------------
+12:38:57.720: video settings reset:
+12:38:57.720: 	base resolution:   1920x1080
+12:38:57.720: 	output resolution: 1920x1080
+12:38:57.720: 	downscale filter:  Bicubic
+12:38:57.720: 	fps:               60/1
+12:38:57.720: 	format:            NV12
+12:38:57.720: 	YUV mode:          Rec. 709/Partial
+12:38:57.720: NV12 texture support not available
+12:38:57.720: P010 texture support not available
+12:38:57.730: Settings changed (video)
+12:38:57.730: ------------------------------------------------
+12:39:02.939: ---------------------------------
+12:39:02.939: [x264 encoder: 'simple_video_recording'] preset: veryfast
+12:39:02.939: [x264 encoder: 'simple_video_recording'] profile: high
+12:39:02.939: [x264 encoder: 'simple_video_recording'] settings:
+12:39:02.939: 	rate_control: CRF
+12:39:02.939: 	bitrate:      0
+12:39:02.939: 	buffer size:  0
+12:39:02.939: 	crf:          23
+12:39:02.939: 	fps_num:      60
+12:39:02.939: 	fps_den:      1
+12:39:02.939: 	width:        1920
+12:39:02.939: 	height:       1080
+12:39:02.939: 	keyint:       250
+12:39:02.939: 
+12:39:02.954: libfdk_aac encoder created
+12:39:02.954: libfdk_aac bitrate: 192, channels: 2
+12:39:02.956: ==== Recording Start ===============================================
+12:39:02.956: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/zls/2023-12-28 12-39-02.mkv'...
+12:39:02.959: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+12:39:18.255: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/zls/2023-12-28 12-39-02.mkv' stopped
+12:39:18.255: Output 'simple_file_output': stopping
+12:39:18.255: Output 'simple_file_output': Total frames output: 891
+12:39:18.255: Output 'simple_file_output': Total drawn frames: 918
+12:39:18.256: ==== Recording Stop ================================================
+12:39:18.265: libfdk_aac encoder destroyed
+12:39:18.764: ==== Shutting down ==================================================
+12:39:18.769: pulse-input: Stopped recording from 'bluez_output.90_7A_58_D0_F2_93.1.monitor'
+12:39:18.769: pulse-input: Got 2432 packets with 2918400 frames
+12:39:18.769: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_6__source'
+12:39:18.769: pulse-input: Got 2430 packets with 2916000 frames
+12:39:18.770: [pipewire] Stream 0x55f865e5d200 state: "paused" (error: none)
+12:39:18.770: [pipewire] Stream 0x55f865e5d200 state: "unconnected" (error: none)
+12:39:18.783: All scene data cleared
+12:39:18.783: ------------------------------------------------
+12:39:18.837: [Scripting] Total detached callbacks: 0
+12:39:18.837: Freeing OBS context data
+12:39:18.848: == Profiler Results =============================
+12:39:18.848: run_program_init: 399.422 ms
+12:39:18.848:  ┣OBSApp::AppInit: 3.435 ms
+12:39:18.848:  ┃ ┗OBSApp::InitLocale: 0.57 ms
+12:39:18.848:  ┗OBSApp::OBSInit: 377.231 ms
+12:39:18.848:    ┣obs_startup: 2.048 ms
+12:39:18.848:    ┗OBSBasic::OBSInit: 352.878 ms
+12:39:18.848:      ┣OBSBasic::InitBasicConfig: 0.079 ms
+12:39:18.848:      ┣OBSBasic::ResetAudio: 0.156 ms
+12:39:18.848:      ┣OBSBasic::ResetVideo: 68.298 ms
+12:39:18.848:      ┃ ┗obs_init_graphics: 63.617 ms
+12:39:18.848:      ┃   ┗shader compilation: 24.978 ms
+12:39:18.848:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+12:39:18.848:      ┣OBSBasic::InitHotkeys: 0.021 ms
+12:39:18.848:      ┣obs_load_all_modules2: 219.032 ms
+12:39:18.848:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+12:39:18.848:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+12:39:18.848:      ┃ ┣obs_init_module(decklink.so): 0.072 ms
+12:39:18.848:      ┃ ┣obs_init_module(frontend-tools.so): 53.617 ms
+12:39:18.848:      ┃ ┣obs_init_module(image-source.so): 0.006 ms
+12:39:18.848:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+12:39:18.848:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+12:39:18.848:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+12:39:18.848:      ┃ ┣obs_init_module(linux-pipewire.so): 9.548 ms
+12:39:18.848:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+12:39:18.848:      ┃ ┣obs_init_module(linux-v4l2.so): 3.095 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.587 ms
+12:39:18.848:      ┃ ┃ ┗nvenc_check: 0.29 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-filters.so): 0.025 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-qsv11.so): 0.133 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-transitions.so): 0.007 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+12:39:18.848:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+12:39:18.848:      ┃ ┣obs_init_module(rtmp-services.so): 0.53 ms
+12:39:18.848:      ┃ ┗obs_init_module(text-freetype2.so): 0.008 ms
+12:39:18.848:      ┣OBSBasic::InitService: 0.854 ms
+12:39:18.848:      ┣OBSBasic::ResetOutputs: 0.149 ms
+12:39:18.848:      ┣OBSBasic::CreateHotkeys: 0.016 ms
+12:39:18.848:      ┣OBSBasic::InitPrimitives: 0.043 ms
+12:39:18.848:      ┗OBSBasic::Load: 48.552 ms
+12:39:18.848: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.065 ms, 99th percentile=0.002 ms, 100% below 25 ms
+12:39:18.848: audio_thread(Audio): min=0.008 ms, median=0.169 ms, max=8.633 ms, 99th percentile=0.44 ms
+12:39:18.848:  ┗receive_audio: min=0.002 ms, median=0.116 ms, max=8.457 ms, 99th percentile=0.266 ms, 0.249913 calls per parent call
+12:39:18.848:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.004 ms, 99th percentile=0.002 ms
+12:39:18.848:    ┗do_encode: min=0.055 ms, median=0.113 ms, max=8.451 ms, 99th percentile=0.261 ms
+12:39:18.848:      ┣encode(simple_aac_recording0): min=0.051 ms, median=0.101 ms, max=0.262 ms, 99th percentile=0.242 ms
+12:39:18.848:      ┗send_packet: min=0.002 ms, median=0.006 ms, max=8.3 ms, 99th percentile=0.056 ms
+12:39:18.848: obs_graphics_thread(16.6667 ms): min=0.043 ms, median=0.549 ms, max=7.254 ms, 99th percentile=0.792 ms, 100% below 16.667 ms
+12:39:18.848:  ┣tick_sources: min=0 ms, median=0.013 ms, max=0.252 ms, 99th percentile=0.017 ms
+12:39:18.848:  ┣output_frame: min=0.024 ms, median=0.293 ms, max=2.171 ms, 99th percentile=0.401 ms
+12:39:18.848:  ┃ ┗gs_context(video->graphics): min=0.024 ms, median=0.292 ms, max=2.168 ms, 99th percentile=0.4 ms
+12:39:18.848:  ┃   ┣render_video: min=0.017 ms, median=0.121 ms, max=0.361 ms, 99th percentile=0.155 ms
+12:39:18.848:  ┃   ┃ ┗render_main_texture: min=0.014 ms, median=0.115 ms, max=0.178 ms, 99th percentile=0.146 ms
+12:39:18.848:  ┃   ┗gs_flush: min=0.004 ms, median=0.158 ms, max=2.121 ms, 99th percentile=0.252 ms
+12:39:18.848:  ┗render_displays: min=0.001 ms, median=0.194 ms, max=5.612 ms, 99th percentile=0.353 ms
+12:39:18.848: obs_graphics_thread(16.6667 ms): min=0.059 ms, median=0.891 ms, max=10.48 ms, 99th percentile=7.055 ms, 100% below 16.667 ms
+12:39:18.848:  ┣tick_sources: min=0.002 ms, median=0.01 ms, max=0.033 ms, 99th percentile=0.016 ms
+12:39:18.848:  ┣output_frame: min=0.03 ms, median=0.603 ms, max=9.787 ms, 99th percentile=6.291 ms
+12:39:18.848:  ┃ ┣gs_context(video->graphics): min=0.03 ms, median=0.304 ms, max=9.472 ms, 99th percentile=5.98 ms
+12:39:18.848:  ┃ ┃ ┣render_video: min=0.022 ms, median=0.132 ms, max=0.796 ms, 99th percentile=0.263 ms
+12:39:18.848:  ┃ ┃ ┃ ┣render_main_texture: min=0.017 ms, median=0.097 ms, max=0.249 ms, 99th percentile=0.184 ms
+12:39:18.848:  ┃ ┃ ┃ ┣render_convert_texture: min=0.018 ms, median=0.032 ms, max=0.314 ms, 99th percentile=0.056 ms, 0.725692 calls per parent call
+12:39:18.848:  ┃ ┃ ┃ ┗stage_output_texture: min=0.01 ms, median=0.018 ms, max=0.411 ms, 99th percentile=0.032 ms, 0.725692 calls per parent call
+12:39:18.848:  ┃ ┃ ┣gs_flush: min=0.005 ms, median=0.089 ms, max=0.351 ms, 99th percentile=0.261 ms
+12:39:18.848:  ┃ ┃ ┗download_frame: min=0 ms, median=0.074 ms, max=9.157 ms, 99th percentile=5.94 ms, 0.725692 calls per parent call
+12:39:18.848:  ┃ ┗output_video_data: min=0.18 ms, median=0.365 ms, max=2.717 ms, 99th percentile=0.844 ms, 0.724901 calls per parent call
+12:39:18.848:  ┗render_displays: min=0.002 ms, median=0.251 ms, max=9.642 ms, 99th percentile=1.213 ms
+12:39:18.848: OBSBasic::ResetVideo: 22.929 ms
+12:39:18.848: video_thread(video): min=1.158 ms, median=1.992 ms, max=8.779 ms, 99th percentile=4.127 ms
+12:39:18.848:  ┗receive_video: min=1.157 ms, median=1.989 ms, max=8.776 ms, 99th percentile=4.124 ms
+12:39:18.848:    ┗do_encode: min=1.156 ms, median=1.988 ms, max=8.775 ms, 99th percentile=4.122 ms
+12:39:18.848:      ┣encode(simple_video_recording): min=1.136 ms, median=1.972 ms, max=5.384 ms, 99th percentile=4.091 ms
+12:39:18.848:      ┗send_packet: min=0.003 ms, median=0.009 ms, max=5.52 ms, 99th percentile=0.056 ms
+12:39:18.848: =================================================
+12:39:18.848: == Profiler Time Between Calls ==================
+12:39:18.848: obs_hotkey_thread(25 ms): min=25.049 ms, median=25.082 ms, max=25.791 ms, 99.959% within ±2% of 25 ms (0% lower, 0.0410172% higher)
+12:39:18.848: obs_graphics_thread(16.6667 ms): min=15.225 ms, median=16.667 ms, max=18.11 ms, 99.7501% within ±2% of 16.667 ms (0.124948% lower, 0.124948% higher)
+12:39:18.848: obs_graphics_thread(16.6667 ms): min=16.531 ms, median=16.667 ms, max=16.789 ms, 100% within ±2% of 16.667 ms (0% lower, 0% higher)
+12:39:18.848: =================================================
+12:39:18.856: Number of memory leaks: 0
