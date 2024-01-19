@@ -1,0 +1,2 @@
+# dotfiles
+arch dots
